@@ -41,12 +41,14 @@
    
    
    #hello{
-     position:absolute;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
      z-index: 10;
      font-size: 130px;
      color:rgba(255, 255, 255, 0.327);
-     top: 30px;
-     left: 50px;
+    
 
    }
    
